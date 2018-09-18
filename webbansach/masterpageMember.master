@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="masterpageMember.master.cs" Inherits="masterpageMember" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <link href="Css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <header>
+        <div class="row bg-brow">
+            <div class="container">
+                <p class="location-top">Nhà Sách: Số 49, Ngõ 172 Đường Phú Diễn, Bắc Từ Liêm, Hà Nội (Gần Đại Học Tài
+                    Nguyên Môi Trường)
+                    lienhe.como@gmail.com</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="col-3">
+
+                    <a href="/" title="Logo" id="logo" class="logoHome"><img src="../Image/logo.png" alt="Logo"></a>
+                </div>
+                <div class="col-6">
+                    <div id="chir_search_head">
+                        <div class="chir_frm">
+                            <form id="frm_search_head" action="/search">
+                                <input id="search" required="" type="text" name="q" placeholder="Tìm kiếm...">
+                                <button type="submit" id="btn-search">Tìm kiếm </button>
+                            </form>
+                        </div>
+                        <ul class="chir_autocomplete">
+                            <li class="title"><strong>Gợi ý từ khóa:</strong></li>
+                            <li><span>Đắc Nhân Tâm, Khéo Ăn Nói Sẽ Có Được Thiên Hạ, Hôm Nay Tôi Thất Tình....</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <ul class="ul-control-box">
+                        <li><a href="/order/search" title="Tra cứu đơn hàng">
+                                <div class="div-user-control">
+                                    <img src="../Image/phone.png">
+                                </div>
+                                <span class="info">Tra cứu đơn hàng</span>
+                            </a>
+                        </li>
+                        <li><a href="/order/search" title="Tra cứu đơn hàng">
+                                <div class="div-user-control">
+                                    <img src="../Image/icon-cart.png">
+                                </div>
+                                <span class="info">Giỏ hàng</span>
+                            </a>
+                        </li>
+                        <li><a href="/order/search" title="Tra cứu đơn hàng">
+                                <div class="div-user-control">
+                                    <img src="../Image/user.png">
+                                </div>
+                                <span class="info">Tài khoản</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fix"></div>
+        <!--menu-->
+        <div class="row menu-color">
+                <div class="container">
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="">Trang chủ</a></li>
+                            <li><a href="">Sản phẩm</a></li>
+                            <li><a href="">Dịch vụ - Khuyến mãi</a></li>
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Review sách</a></li>
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">BiZ Sách doanh nhân</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+    </header>
+    </div>
+           <asp:ContentPlaceHolder id="Index" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
