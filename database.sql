@@ -1,6 +1,6 @@
 /*
-Created		09/07/2018
-Modified		09/19/2018
+Created		9/7/2018
+Modified		9/19/2018
 Project		
 Model			
 Company		
@@ -25,15 +25,18 @@ Create table [Book]
 	[Name] Nvarchar(100) NOT NULL,
 	[Price] Integer NOT NULL,
 	[Discount] Integer NOT NULL,
+	[Bookpublishers] Nvarchar(50) NOT NULL,
+	[PublishingHouse] Nvarchar(100) NOT NULL,
 	[Author] Nvarchar(30) NOT NULL,
-	[Size] Integer NOT NULL,
+	[Translator] Nvarchar(30) NULL,
+	[Size] Nvarchar(20) NOT NULL,
+	[PageNumber] Integer NULL,
 	[Weight] Float NULL,
+	[CoverType] Nvarchar(15) NULL,
 	[PublicTime] Smalldatetime NULL,
-	[CreatedAt] Datetime NULL,
 	[Description] Ntext NULL,
 	[Image] Nvarchar(100) NULL,
 	[Amount] Integer NOT NULL,
-	[publishingHouse] Nvarchar(100) NOT NULL,
 	[CategoryID] Integer NOT NULL,
 Primary Key ([BookID])
 ) 

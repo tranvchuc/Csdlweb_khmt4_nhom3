@@ -58,16 +58,17 @@
                         </div>
                         <hr/>
                     </div>
+                   <asp:ContentPlaceHolder id="admin" runat="server">
+    </asp:ContentPlaceHolder>
                </div>
                <!-- end col-6 -->
+
             </div>
         </div>
     </header>
+        <div class="fix"></div>
     </div>
     </form>
-    <div>
-        <asp:ContentPlaceHolder id="admin" runat="server">
-    </asp:ContentPlaceHolder>
-    </div>
+   
 </body>
 </html>
