@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="Admin_MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Css/admin.css.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <header>
+        <div class="row  ">
+            <div class="container bg-content ">
+               <div class="col-3 bg">
+                    <div class="row admin">
+                        <img class="image-admin" alt="user" src="../Image/user.png">
+                        <div>Admin</div>
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <nav class="list-control">
+                            <ul>
+                                <li><a href="#">Tổng Quan</a></li>
+                                <li><a href="">Danh MụcSách</a></li>
+                                <li><a href="">Sách</a></li>
+                                <li><a href="">Đơn Hàng</a></li>
+                                <li><a href="">Thành Viên</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+               </div>
+               <!-- end -col-3 -->
+               <div class="col-6 bg-content">
+                    <div class="container ">
+                       
+                        <div class="row">
+                            <nav class="left">
+                                <span>Chào mừng Admin</span>
+                                <a href="#">Xem website</a>
+                                <a href="#"><img src="../Image/notification.png" alt=""></a>
+                                <a href="#"><img src="../Image/icon-cart.png" alt=""></a>
+                            </nav>
+                            <nav class="right">
+                               
+                                <a href="#">Đăng Xuất</a>
+                            </nav>
+                        
+                        </div>
+                        <div class="fix"></div>
+                        <div class="row">
+                            <div class="row">
+                                <div class="heading">
+                                    <h2>Comobook dashboard</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                    </div>
+               </div>
+               <!-- end col-6 -->
+            </div>
+        </div>
+    </header>
+    </div>
+    </form>
+    <div>
+        <asp:ContentPlaceHolder id="admin" runat="server">
+    </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
