@@ -5,8 +5,8 @@
 <html>
 <head runat="server">
     <title></title>
-
-    <link href="Css/style.css" rel="stylesheet" />
+<link href="Css/style.css" rel="stylesheet" />
+ 
 </head>
 <body>
     <form id="form1" runat="server">
@@ -86,9 +86,122 @@
                 </div>
         </div>
     </header>
+    <div>
+        <asp:ContentPlaceHolder id="Index" runat="server">
+        </asp:ContentPlaceHolder>
     </div>
-           <asp:ContentPlaceHolder id="Index" runat="server">
-            </asp:ContentPlaceHolder>
+    <div>
+        <footer>
+        <div class="row " id="footer_top">
+            <div class="container">
+                <div class="footer_newsletter text-center">
+                    <span>Cập nhật thông tin khuyến mãi nhanh nhất</span>
+
+                    <input id="contactFormEmail" name="contact[email]" type="email" placeholder="Đăng ký email"
+                        required="required">
+                    <button class="le-button">Đăng ký</button>
+
+                </div>
+            </div>
+        </div>
+ 
+        <!-- end email -->
+
+        <section id="footer_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="fi-about-block grid__item footer-new">
+                            <div class="fi-title1 insScroll">
+                                <a href="/" title="Logo">
+                                    <img src="../Image/logo.png" alt="Logo"></a></div>
+                            <div class="fi-content" style="text-align:justify;">
+                                <div>
+                                   <span style="font-size:12px;">Công
+                                            Ty TNHH DV &amp; TM Văn Hóa Green Books</span>
+                                </div>
+                                <div><span style="font-size:12px;"><span style="font-family:arial, helvetica, sans-serif;"><span
+                                                style="color:rgb(0,0,0);">Mã số thuế:&nbsp;</span><span style="color:rgb(0,0,0);letter-spacing:.293333px;">0108187956</span></span></span></div>
+                                <div><span style="font-size:12px;">
+                                       
+                                           <span style="letter-spacing:.293333px;">Địa
+                                                chỉ: Số 49, Ngõ 172&nbsp;Đường Phú&nbsp;</span>
+                                    </span><span style="letter-spacing:.293333px;color:rgb(0,0,0);font-family:arial, helvetica, sans-serif;font-size:12px;">Diễn</span></div>
+                                <div><span style="font-size:12px;">
+                                      <span style="letter-spacing:.293333px;">Phường
+                                                Phú&nbsp;Diễn, Bắc Từ Liêm, Hà Nội&nbsp;</span>
+                                    </span></div>
+                                <div><span style="font-size:12px;"><span style="font-family:arial, helvetica, sans-serif;"><span
+                                                style="color:rgb(0,0,0);">Điện thoại : 0966.956.570&nbsp;</span></span></span></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="col-4">
+                            <div class="content-footer">
+                                <div class="fi-title">Về chúng tôi</div>
+                                <hr/>
+                                <div class="fi-content">
+                                    <ul>
+                                        <li><a href="//como.vn/gioi-thieu-ve-como.vn-n30220.html">Giới thiệu</a></li>
+                                        <li><a href="//como.vn/tin-tuc-nc5614.html">Tin Tức&nbsp;</a></li>
+                                        <li><a href="//como.vn/tuyen-cong-tac-vien-ban-sach-n31734.html">Tuyển Dụng</a></li>
+                                        <li><a href="http://como.vn/lien-he-voi-chung-toi-n33633.html">Liên hệ</a></li>
+                                        <li><a href="https://www.facebook.com/vumanhtuan2008">FaceBook Tư Vấn Sách</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="fi-title">HỖ TRỢ KHÁCH HÀNG</div>
+                            <hr/>
+                            <div class="fi-content">
+                                <ul>
+                                    <li><a href="//como.vn/chinh-sach-mua-hang-amp-thanh-toan-n30690.html">Chính sách
+                                            Thanh toán&nbsp;</a></li>
+                                    <li><a href="//como.vn/chinh-sach-van-chuyen-n31183.html">Chính sách Vận chuyển</a></li>
+                                    <li><a href="//como.vn/chinh-sach-doi-tra-n31868.html">Chính sách Đổi trả&nbsp;</a></li>
+                                    <li>Câu hỏi thường gặp?</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="fi-title">GIAN HÀNG NHÀ SÁCH</div>
+                            <hr/>
+                            <div class="fi-content">
+                                <ul>
+                                    <li><a href="//www.lazada.vn/shop/the-gioi-sach-online-comovn/">Trên Trang TMĐT
+                                            LAZADA</a></li>
+                                    <li>Trên Trang TMĐT Shopee</li>
+                                    <li>Trên Trang TMĐT Adayroi!</li>
+                                    <li><a href="//shop.zalo.me/store/home?pageId=2050676896284564364">Trên Nền Tảng
+                                            Zalo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="fi-title">KẾT NỐI VỚI CHÚNG TÔI</div>
+                            <hr/>
+                            <div class="fi-content">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/como.vn.thegioisachonline/">Facebook Nhà Sách</a></li>
+                                    <li><a href="https://www.facebook.com/groups/2260126504027906/">Cộng Đồng Mọt Sách
+                                            COMO.VN</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCVwS5sJFFKbwhpdGV_97pGA">Youtube
+                                            Review Sách</a></li>
+                                    <li><a href="https://www.instagram.com/como.vn/">Instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    </div>
     </form>
+
 </body>
 </html>
