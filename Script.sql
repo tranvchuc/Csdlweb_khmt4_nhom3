@@ -1,6 +1,6 @@
 /*
 Created		9/7/2018
-Modified		9/19/2018
+Modified		9/20/2018
 Project		
 Model			
 Company		
@@ -8,7 +8,6 @@ Author
 Version		
 Database		MS SQL 2005 
 */
-
 
 Create table [Role]
 (
@@ -51,23 +50,23 @@ Primary Key ([CategoryID])
 ) 
 go
 
-Create table [User]
+Create table [Member]
 (
-	[UserID] Integer Identity NOT NULL, UNIQUE ([UserID]),
+	[MemberID] Integer Identity NOT NULL, UNIQUE ([MemberID]),
+	[FullName] Nvarchar(30) NOT NULL,
 	[Email] Nvarchar(50) NOT NULL, UNIQUE ([Email]),
 	[Password] Nvarchar(200) NOT NULL,
 	[Phone] Nchar(15) NOT NULL,
-	[FullName] Nvarchar(30) NOT NULL,
 	[Adress] Nvarchar(50) NULL,
 	[RoleID] Integer NOT NULL,
-Primary Key ([UserID])
+Primary Key ([MemberID])
 ) 
 go
 
 Create table [Order]
 (
 	[OrderID] Integer Identity NOT NULL, UNIQUE ([OrderID]),
-	[UserID] Integer NOT NULL,
+	[MemberID] Integer NOT NULL,
 	[FullName] Nvarchar(30) NOT NULL,
 	[Email] Nvarchar(50) NOT NULL,
 	[Phone] Nchar(15) NOT NULL,
@@ -92,13 +91,13 @@ Primary Key ([OrderDetail_ID],[BookID],[OrderID])
 go
 
 
-Alter table [User] add  foreign key([RoleID]) references [Role] ([RoleID])  on update no action on delete no action 
+Alter table [Member] add  foreign key([RoleID]) references [Role] ([RoleID])  on update no action on delete no action 
 go
 Alter table [OderDetail] add  foreign key([BookID]) references [Book] ([BookID])  on update no action on delete no action 
 go
 Alter table [Book] add  foreign key([CategoryID]) references [Category] ([CategoryID])  on update no action on delete no action 
 go
-Alter table [Order] add  foreign key([UserID]) references [User] ([UserID])  on update no action on delete no action 
+Alter table [Order] add  foreign key([MemberID]) references [Member] ([MemberID])  on update no action on delete no action 
 go
 Alter table [OderDetail] add  foreign key([OrderID]) references [Order] ([OrderID])  on update no action on delete no action 
 go

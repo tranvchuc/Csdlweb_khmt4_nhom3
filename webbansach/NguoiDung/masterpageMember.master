@@ -5,12 +5,10 @@
 <html>
 <head runat="server">
     <title></title>
-<<<<<<< HEAD
     <link href="Css/style.css" rel="stylesheet" />
-=======
 <link href="Css/style.css" rel="stylesheet" />
  
->>>>>>> da2fa77d1b719f38fa200b69a25767f4c5447cc2
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -27,7 +25,7 @@
             <div class="container">
                 <div class="col-3">
 
-                    <a href="/" title="Logo" id="logo" class="logoHome"><img src="../Image/logo.png" alt="Logo"></a>
+                    <a href="/" title="Logo" id="logo" class="logoHome"><img src="../Image/icon/logo.png" alt="Logo"></a>
                 </div>
                 <div class="col-6">
                     <div id="chir_search_head">
@@ -47,21 +45,21 @@
                     <ul class="ul-control-box">
                         <li><a href="NguoiDung/GioHang.aspx">
                                 <div class="div-user-control">
-                                    <img src="../Image/phone.png">
+                                    <img src="../Image/icon/phone.png">
                                 </div>
                                 <span class="info">Tra cứu đơn hàng</span>
                             </a>
                         </li>
                         <li><a href="GioHang.aspx" >
                                 <div class="div-user-control">
-                                    <img src="../Image/icon-cart.png">
+                                    <img src="../Image/icon/icon-cart.png">
                                 </div>
                                 <span class="info">Giỏ hàng</span>
                             </a>
                         </li>
                         <li><a href="TaiKhoan.aspx" >
                                 <div class="div-user-control">
-                                    <img src="../Image/user.png">
+                                    <img src="../Image/icon/user.png">
                                 </div>
                                 <span class="info">Tài khoản</span>
                             </a>
@@ -118,7 +116,7 @@
                         <div class="fi-about-block grid__item footer-new">
                             <div class="fi-title1 insScroll">
                                 <a href="/" title="Logo">
-                                    <img src="../Image/logo.png" alt="Logo"></a></div>
+                                    <img src="../Image/icon/logo.png" alt="Logo"></a></div>
                             <div class="fi-content" style="text-align:justify;">
                                 <div>
                                    <span style="font-size:12px;">Công
@@ -148,11 +146,11 @@
                                 <hr/>
                                 <div class="fi-content">
                                     <ul>
-                                        <li><a href="//como.vn/gioi-thieu-ve-como.vn-n30220.html">Giới thiệu</a></li>
-                                        <li><a href="//como.vn/tin-tuc-nc5614.html">Tin Tức&nbsp;</a></li>
-                                        <li><a href="//como.vn/tuyen-cong-tac-vien-ban-sach-n31734.html">Tuyển Dụng</a></li>
-                                        <li><a href="http://como.vn/lien-he-voi-chung-toi-n33633.html">Liên hệ</a></li>
-                                        <li><a href="https://www.facebook.com/vumanhtuan2008">FaceBook Tư Vấn Sách</a></li>
+                                        <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
+                                        <li><a href="TinTuc.aspx">Tin Tức&nbsp;</a></li>
+                                        <li><a href="TuyenDung.aspx">Tuyển Dụng</a></li>
+                                        <li><a href="#">Liên hệ</a></li>
+                                        <li><a href="#">FaceBook Tư Vấn Sách</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -162,10 +160,10 @@
                             <hr/>
                             <div class="fi-content">
                                 <ul>
-                                    <li><a href="//como.vn/chinh-sach-mua-hang-amp-thanh-toan-n30690.html">Chính sách
+                                    <li><a href="#">Chính sách
                                             Thanh toán&nbsp;</a></li>
-                                    <li><a href="//como.vn/chinh-sach-van-chuyen-n31183.html">Chính sách Vận chuyển</a></li>
-                                    <li><a href="//como.vn/chinh-sach-doi-tra-n31868.html">Chính sách Đổi trả&nbsp;</a></li>
+                                    <li><a href="#">Chính sách Vận chuyển</a></li>
+                                    <li><a href="#">Chính sách Đổi trả&nbsp;</a></li>
                                     <li>Câu hỏi thường gặp?</li>
                                 </ul>
                             </div>

@@ -22,11 +22,11 @@
                     <div class="row">
                         <nav class="list-control">
                             <ul>
-                                <li><a href="#">Tổng Quan</a></li>
-                                <li><a href="">Danh MụcSách</a></li>
-                                <li><a href="">Sách</a></li>
-                                <li><a href="">Đơn Hàng</a></li>
-                                <li><a href="">Thành Viên</a></li>
+                                <li><a href="IndexAdmin.aspx">Tổng Quan</a></li>
+                                <li><a href="DanhMucSach.aspx">Danh MụcSách</a></li>
+                                <li><a href="Sach.aspx">Sách</a></li>
+                                <li><a href="DonHang.aspx">Đơn Hàng</a></li>
+                                <li><a href="ThanhVien.aspx">Thành Viên</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -38,12 +38,12 @@
                         <div class="row">
                             <nav class="left">
                                 <span>Chào mừng Admin</span>
-                                <a href="#">Xem website</a>
+                                <a href="../NguoiDung/Index.aspx">Xem website</a>
                                 <a href="#"><img src="../Image/notification.png" alt=""></a>
                                 <a href="#"><img src="../Image/icon-cart.png" alt=""></a>
                             </nav>
                             <nav class="right">
-                               
+                  
                                 <a href="#">Đăng Xuất</a>
                             </nav>
                         
