@@ -15,6 +15,31 @@ body {
     float: left;
 }
 
+.col-15 {
+    width: 15%;
+    float: left;
+}
+
+.col-95 {
+    width: 85%;
+    float: left;
+}
+
+.danh-muc > li:first-child {
+    color: #fff;
+    background: #00a651;
+    padding: 10px 20px;
+}
+
+.danh-muc > li {
+    border: 1px solid #808080;
+    padding: 5px 10px;
+}
+
+    .danh-muc > li:last-child {
+        border-bottom: 2px solid #00a651;
+    }
+
 .col-8 {
     width: 80%;
     float: left;

@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/NguoiDung/masterpageMember.master" AutoEventWireup="true" CodeFile="MasterPageDanhMuc.master.cs" Inherits="NguoiDung_MasterPageDanhMuc" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Index" runat="Server">
+    <div class="col-15">
+        <ul class="danh-muc">
+            <li>Danh mục sách</li>
+
+            <li><a href="/NguoiDung/DanhMuc/Sach">Sách Bán Chạy - Khuyên Đọc</a></li>
+            <li><a href="/NguoiDung/DanhMuc/SachKT_QT.aspx">Sác Kinh Tế - Quản Trị</a></li>
+            <li><a href="/NguoiDung/DanhMuc/SachKyNang.aspx">Sách Kỹ Năng</a></li>
+            <li><a href="/NguoiDung/DanhMuc/SachVanHoc.aspx">Sách Văn Học</a></li>
+            <li><a href="/NguoiDung/DanhMuc/SachNgoaiNgu_TuDien.aspx">Sách Ngoại Ngữ - Từ Điển</a></li>
+            <li><a href="/NguoiDung/DanhMuc/SachMeVaBe.aspx">Sách Mẹ VÀ Bé</a></li>
+            <li><a href="/NguoiDung/DanhMuc/TruyenManga_Comic.aspx">Truyện - Manga - Comic</a></li>
+            <li><a href="/NguoiDung/DanhMuc/TuSach.aspx">Tủ Sách</a></li>
+            <li><a href="/NguoiDung/DanhMuc/SachLuyenThi_ThamKhao.aspx">Sach THam Khảo - Luyện Thi</a></li>
+            <li><a href="/NguoiDung/DanhMuc/SachThuongThucDoiSong.aspx">Sách Thường Thức - Đời Sống</a></li>
+            <li><a href="/NguoiDung/DanhMuc/SanPhamKhac.aspx">Sản Phảm Khác</a></li>
+        </ul>
+    </div>
+    <div class="col-95">
+        <div class="container">
+            <asp:ContentPlaceHolder ID="DanhMuc" runat="server">test</asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="fix"></div>
+
+</asp:Content>
+

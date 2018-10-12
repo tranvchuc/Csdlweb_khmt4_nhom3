@@ -1,16 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="GioHang.aspx.cs" Inherits="NguoiDung_GioHang" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="masterpageMember.master" AutoEventWireup="true" CodeFile="GioHang.aspx.cs" Inherits="Index" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="Index" Runat="Server">
+   <h1> đây là Trang giỏ hàng</h1>
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            <h1> đây là giỏ hàng</h1>
-        </div>
-    </form>
-</body>
-</html>

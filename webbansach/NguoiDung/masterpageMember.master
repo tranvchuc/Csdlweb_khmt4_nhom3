@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="col-3">
 
-                    <a href="/" title="Logo" id="logo" class="logoHome"><img src="../Image/icon/logo.png" alt="Logo"></a>
+                    <a href="/" title="Logo" id="logo" class="logoHome"><img src="/Image/icon/logo.png" alt="Logo"></a>
                 </div>
                 <div class="col-6">
                     <div id="chir_search_head">
@@ -43,23 +43,23 @@
                 </div>
                 <div class="col-3">
                     <ul class="ul-control-box">
-                        <li><a href="NguoiDung/GioHang.aspx">
+                        <li><a href="TraCuuDonHang.aspx">
                                 <div class="div-user-control">
-                                    <img src="../Image/icon/phone.png">
+                                    <img src="/Image/icon/phone.png">
                                 </div>
                                 <span class="info">Tra cứu đơn hàng</span>
                             </a>
                         </li>
                         <li><a href="GioHang.aspx" >
                                 <div class="div-user-control">
-                                    <img src="../Image/icon/icon-cart.png">
+                                    <img src="/Image/icon/icon-cart.png">
                                 </div>
                                 <span class="info">Giỏ hàng</span>
                             </a>
                         </li>
                         <li><a href="TaiKhoan.aspx" >
                                 <div class="div-user-control">
-                                    <img src="../Image/icon/user.png">
+                                    <img src="/Image/icon/user.png">
                                 </div>
                                 <span class="info">Tài khoản</span>
                             </a>
@@ -75,14 +75,14 @@
                     <nav>
                         <ul class="menu">
                            
-                            <li><a href="Index.aspx">Trang chủ</a></li>
-                            <li><a href="SanPham.aspx">Sản phẩm</a></li>
-                            <li><a href="Dichvu_KM.aspx">Dịch vụ - Khuyến mãi</a></li>
-                            <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
-                            <li><a href="ReviewSach.aspx">Review sách</a></li>
-                            <li><a href="TinTuc.aspx">Tin tức</a></li>
-                            <li><a href="BizSach.aspx">BiZ Sách doanh nhân</a></li>
-                            <li><a href="TuyenDung.aspx">Tuyển dụng</a></li>
+                            <li><a href="/NguoiDung/Index.aspx">Trang chủ</a></li>
+                            <li><a href="/NguoiDung/SanPham.aspx">Sản phẩm</a></li>
+                            <li><a href="/NguoiDung/Dichvu_KM.aspx">Dịch vụ - Khuyến mãi</a></li>
+                            <li><a href="/NguoiDung/GioiThieu.aspx">Giới thiệu</a></li>
+                            <li><a href="/NguoiDung/ReviewSach.aspx">Review sách</a></li>
+                            <li><a href="/NguoiDung/TinTuc.aspx">Tin tức</a></li>
+                            <li><a href="/NguoiDung/BizSach.aspx">BiZ Sách doanh nhân</a></li>
+                            <li><a href="/NguoiDung/TuyenDung.aspx">Tuyển dụng</a></li>
                         </ul>
                     </nav>
                 </div>
