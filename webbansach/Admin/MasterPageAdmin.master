@@ -22,11 +22,11 @@
                     <div class="row">
                         <nav class="list-control">
                             <ul>
-                                <li><a href="IndexAdmin.aspx">Tổng Quan</a></li>
-                                <li><a href="DanhMucSach.aspx">Danh MụcSách</a></li>
-                                <li><a href="Sach.aspx">Sách</a></li>
-                                <li><a href="DonHang.aspx">Đơn Hàng</a></li>
-                                <li><a href="ThanhVien.aspx">Thành Viên</a></li>
+                                <li><a href="/Admin/IndexAdmin.aspx">Tổng Quan</a></li>
+                                <li><a href="/Admin/admDanhMucSach.aspx">Danh MụcSách</a></li>
+                                <li><a href="/Admin/admSach.aspx">Sách</a></li>
+                                <li><a href="/Admin/admDonHang.aspx">Đơn Hàng</a></li>
+                                <li><a href="/Admin/admThanhVien.aspx">Thành Viên</a></li>
                             </ul>
                         </nav>
                     </div>
