@@ -9,6 +9,7 @@ Version
 Database		MS SQL 2005 
 */
 
+
 Create table [Role]
 (
 	[RoleID] Integer Identity NOT NULL, UNIQUE ([RoleID]),
@@ -75,6 +76,8 @@ Create table [Order]
 	[Districk] Nvarchar(30) NOT NULL,
 	[Note] Text NULL,
 	[SumPrice] Integer NOT NULL,
+	[Date] Datetime NOT NULL,
+	[Status] Nvarchar(50) NOT NULL,
 Primary Key ([OrderID])
 ) 
 go
